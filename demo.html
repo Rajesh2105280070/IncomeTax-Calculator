@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tax Calculator</title>
+    <link rel="icon" href="public/images/favicon.ico">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Income Tax Calculator</h1>
+        <h2>Calculate for Income Tax</h2>
+        <p>Revised Income Tax slabs under tax regime for FY 2024-25</p>
+        <p>
+            The Income Tax slabs under the new income tax regime will be as follows:
+        </p>
+        <img src="public/images/3.jpg" width="100%" height="100%"> <br> <br>
+        <table class="myWarpTable">
+            <tbody>
+                <tr>
+                    <td><strong>Income Tax slabs under new tax regime</strong></td>
+                    <td><strong>Income Tax rates under new tax regime</strong></td>
+                </tr>
+                <tr>
+                    <td>&#8377; 0 to &#8377; 3 Lakhs</td>
+                    <td>0%</td>
+                </tr>
+                <tr>
+                    <td>&#8377; 3 lakhs to &#8377; 6 lakhs</td>
+                    <td>5%</td>
+                </tr>
+                <tr>
+                    <td>&#8377; 6 lakhs to &#8377; 9 lakhs</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>&#8377; 9 lakhs to &#8377; 12 lakhs</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>&#8377; 12 lakhs to &#8377; 15 lakhs</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>Income Above &#8377; 15 lakhs</td>
+                    <td>30%</td>
+                </tr>
+            </tbody>
+        </table>
+        <form id="tax-form">
+            <div class="form-group">
+                <label for="income">Annual Income: New Slab</label>
+                <input type="number" id="income" name="income" placeholder="Enter Your Annual Income" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Calculate Tax</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/a848f4d430.js" crossorigin="anonymous"></script>
+</body>
+</html>

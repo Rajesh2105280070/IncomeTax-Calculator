@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=DM+Sans:ital,opsz,wght@0,9..40,600;1,9..40,500&family=Poppins:ital,wght@0,300;1,400&family=Roboto:wght@300;400&family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.form-group{
+    margin: 20px 0;
+    text-align: left;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type='number']{
+    width: 100%;
+    padding: 10px;
+    font-size: 16;
+    border-radius: 5px;
+    border: solid 1px gray;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.myWarpTable{
+    text-align: left;
+    border-collapse: collapse;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.myWarpTable td{
+    border: solid 1px gray;
+    padding: 5px 10px;
+}
